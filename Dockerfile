@@ -1,0 +1,6 @@
+FROM n8nio/n8n:latest
+
+EXPOSE 5678
+
+ENV N8N_LISTEN_ADDRESS="0.0.0.0"
+ENV N8N_PROTOCOL="https"
